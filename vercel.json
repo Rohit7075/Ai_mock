@@ -1,9 +1,5 @@
 {
-"redirects": [
-  {
-    "source": "/sign-in",
-    "destination": "/sign-in",
-    "permanent": true
-  }
-]
+   "rewrites":  [
+       {"source": "/(.*)", "destination": "/"}
+    ]
 }
