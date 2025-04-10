@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import dayjs from 'dayjs'
 import Image from 'next/image';
 import { getRandomInterviewCover } from '@/lib/utils';
@@ -46,7 +46,7 @@ const InterviewCard = ( {interviewId,
         </p>
         </div>
         <div className=" flex flex-row gap-2  justify-between">
-         <DisplayTechIcons   techstack={techstack}/>
+         <DisplayTechIcons   techStack={techstack}/>
          <Button className='btn-primary'>
          <Link href={feedback ? `/interview/${interviewId}/feedback`:`/interview/${interviewId}`}>
           {feedback ? "View Feedback" : "Vew Interview"}
